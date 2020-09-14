@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facultad de telematica - Personal administrativo </title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap-personal-admin.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+     
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<a href='https://www.ucol.mx/' style=' width:17%; display:scroll;position:absolute;top:0px;right:0px; z-index:1;'> 
+<img id="logo "src='imagenes/logo.png' class="img-responsive"/></a>
+<header>
+    <nav>
+            <div>
+                  <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                  <li><a href="Inicio.html">INICIO</a></li>
+                  <li><a href="#">FACULTAD <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Historia.html">Historia</a></li>
+                              <li><a href="Contacto.html">Contacto</a></li>
+                              <li><a href="Personal-admin.html">Personal Administrativo</a></li>
+                              <li><a href="Reglamentos.html">Reglamento de Uso de Laboratorio</a></li>
+							  <li><a href="Infraestructura.html">Infraestructura</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">OFERTA EDUCATIVA <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Bienvenida.html">Bienvenida</a></li>
+                              <li><a href="Ing-Telematica.html">Ingeniero en Telematica</a></li>
+                              <li><a href="Ing-Software.html">Ingeniero de Software</a></li>
+                              
+                        </ul>
+                  </li>
+				      <li><a href="#">ACADEMICO <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Docentes.html">Docentes</a></li>
+                              <li><a href="Academias.html">Academias</a></li>
+                              <li><a href="Cuerpos.html">Cuerpos Academicos</a></li>
+							  <li><a href="Program-tutoria.html">Programa Tutoria</a></li>
+                        </ul>
+                  </li>
+                       <li><a href="#">RENDICION DE CUENTAS <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Informes-laborales.html">Informes Laborales</a></li>
+                              
+                        </ul>
+                  </li>
+                  <li><a href="http://telematicanet.ucol.mx/egresados/" target="_blank">ASOC. EGRESADOS</a></li>
+            </ul>
+      </nav>
+</header>
+      <script type="text/javascript">
+
+      $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+      });
+
+      $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+      });
+
+      $(window).resize(function() {
+            if($(window).width() > 768) {
+                  $("ul").removeAttr('style');
+            }
+      });
+
+      </script>
+	  
+	  <hr>
+
+
+<hr>
+ <div class="container">
+ 	<table class="table table-striped text-center table-responsive" style="width: 100%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr><th colspan="4" style="text-align: center; color: #ffffff; background: #4475B2;"><span class="fa fa-user-o"> DIRECCIÓN</span></th></tr>
+<tr>
+<td colspan="4" style="text-align: center;">M. en C. Sara Sandoval Carrillo<br /> <strong>Directora de la Facultad</strong><br /> <span id="cloake5ddbf0d321d3efce9e4f521b43369ad">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloake5ddbf0d321d3efce9e4f521b43369ad').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addye5ddbf0d321d3efce9e4f521b43369ad = 's&#97;ry' + '&#64;';
+				addye5ddbf0d321d3efce9e4f521b43369ad = addye5ddbf0d321d3efce9e4f521b43369ad + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_texte5ddbf0d321d3efce9e4f521b43369ad = 's&#97;ry' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloake5ddbf0d321d3efce9e4f521b43369ad').innerHTML += '<a ' + path + '\'' + prefix + ':' + addye5ddbf0d321d3efce9e4f521b43369ad + '\'>'+addy_texte5ddbf0d321d3efce9e4f521b43369ad+'<\/a>';
+		</script><br /> ext 37800</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dr. Ed. Antonio Ordaz Carrillo<br /> <strong>Coordinador Académico de la carrera Ingeniería en Software </strong><br /> <span id="cloake985f11a2cd2bd6f35a3bb84fe3ca4dc">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloake985f11a2cd2bd6f35a3bb84fe3ca4dc').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addye985f11a2cd2bd6f35a3bb84fe3ca4dc = '&#97;&#111;rd&#97;z' + '&#64;';
+				addye985f11a2cd2bd6f35a3bb84fe3ca4dc = addye985f11a2cd2bd6f35a3bb84fe3ca4dc + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_texte985f11a2cd2bd6f35a3bb84fe3ca4dc = '&#97;&#111;rd&#97;z' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloake985f11a2cd2bd6f35a3bb84fe3ca4dc').innerHTML += '<a ' + path + '\'' + prefix + ':' + addye985f11a2cd2bd6f35a3bb84fe3ca4dc + '\'>'+addy_texte985f11a2cd2bd6f35a3bb84fe3ca4dc+'<\/a>';
+		</script><br /> ext 37804</td>
+<td style="text-align: center;">M.C. Aaron Vázquez Godina<br /> <strong>Coordinador Académico de la carrera Ingeniería en Telemática</strong><br /> <span id="cloak185d33558e23f88d1742281924749159">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak185d33558e23f88d1742281924749159').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy185d33558e23f88d1742281924749159 = 'l&#97;&#97;&#97;r&#111;n' + '&#64;';
+				addy185d33558e23f88d1742281924749159 = addy185d33558e23f88d1742281924749159 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text185d33558e23f88d1742281924749159 = 'l&#97;&#97;&#97;r&#111;n' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak185d33558e23f88d1742281924749159').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy185d33558e23f88d1742281924749159 + '\'>'+addy_text185d33558e23f88d1742281924749159+'<\/a>';
+		</script><br /> ext. 37805</td>
+<td style="text-align: center;">Dr. Raúl Teodoro Aquino Santos<br /> <strong>Coordinador de Posgrado</strong><br /><span id="cloakfc3088a4ef9946906373bc9a44740387">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloakfc3088a4ef9946906373bc9a44740387').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyfc3088a4ef9946906373bc9a44740387 = '&#97;q&#117;&#105;n&#111;r' + '&#64;';
+				addyfc3088a4ef9946906373bc9a44740387 = addyfc3088a4ef9946906373bc9a44740387 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_textfc3088a4ef9946906373bc9a44740387 = ' &#97;q&#117;&#105;n&#111;r@&#117;c&#111;l.mx';document.getElementById('cloakfc3088a4ef9946906373bc9a44740387').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyfc3088a4ef9946906373bc9a44740387 + '\'>'+addy_textfc3088a4ef9946906373bc9a44740387+'<\/a>';
+		</script></td>
+<td style="text-align: center;">C.P. Rosa María Ponce Barajas<br /> <strong>Secretaria Administrativa</strong><br /> <span id="cloak298bf60bb49b31ee16715a612bf26fb2">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak298bf60bb49b31ee16715a612bf26fb2').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy298bf60bb49b31ee16715a612bf26fb2 = 'rp&#111;nc&#101;' + '&#64;';
+				addy298bf60bb49b31ee16715a612bf26fb2 = addy298bf60bb49b31ee16715a612bf26fb2 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text298bf60bb49b31ee16715a612bf26fb2 = 'rp&#111;nc&#101;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak298bf60bb49b31ee16715a612bf26fb2').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy298bf60bb49b31ee16715a612bf26fb2 + '\'>'+addy_text298bf60bb49b31ee16715a612bf26fb2+'<\/a>';
+		</script><br /> ext 37803</td>
+</tr>
+<tr>
+<td style="text-align: center;">Lic. Alma Refugio Dávila Preciado<br /><strong>Asesora Pedagógica</strong><br /><span id="cloak07538ae81b56da4bc829d9b6b4d6d0fc">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak07538ae81b56da4bc829d9b6b4d6d0fc').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy07538ae81b56da4bc829d9b6b4d6d0fc = '&#97;d&#97;v&#105;l&#97;' + '&#64;';
+				addy07538ae81b56da4bc829d9b6b4d6d0fc = addy07538ae81b56da4bc829d9b6b4d6d0fc + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text07538ae81b56da4bc829d9b6b4d6d0fc = '&#97;d&#97;v&#105;l&#97;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak07538ae81b56da4bc829d9b6b4d6d0fc').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy07538ae81b56da4bc829d9b6b4d6d0fc + '\'>'+addy_text07538ae81b56da4bc829d9b6b4d6d0fc+'<\/a>';
+		</script></td>
+<td style="text-align: center;">Lic. Mónica Georgina García Valle<br /><strong>Orientadora Educativa</strong><br /><span id="cloak6d8af5594889ec82c6ce383100dcb1fa">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak6d8af5594889ec82c6ce383100dcb1fa').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy6d8af5594889ec82c6ce383100dcb1fa = 'm&#111;n&#105;c&#97;_g&#97;rc&#105;&#97;' + '&#64;';
+				addy6d8af5594889ec82c6ce383100dcb1fa = addy6d8af5594889ec82c6ce383100dcb1fa + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text6d8af5594889ec82c6ce383100dcb1fa = 'm&#111;n&#105;c&#97;_g&#97;rc&#105;&#97;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak6d8af5594889ec82c6ce383100dcb1fa').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy6d8af5594889ec82c6ce383100dcb1fa + '\'>'+addy_text6d8af5594889ec82c6ce383100dcb1fa+'<\/a>';
+		</script></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th colspan="4" style="text-align: center; color: #ffffff; background: #4475B2;"><strong> <span class="fa fa-users"> COMISIONES </span></strong></th></tr>
+<tr>
+<td style="text-align: center;">D. en C. María Andrade Aréchiga<br /> <strong>Responsable del servicio social constitucional</strong><br /> <span id="cloak63fbd0c3048b32b2d5b61ffc5db0d1f8">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak63fbd0c3048b32b2d5b61ffc5db0d1f8').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy63fbd0c3048b32b2d5b61ffc5db0d1f8 = 'm&#97;ndr&#97;d' + '&#64;';
+				addy63fbd0c3048b32b2d5b61ffc5db0d1f8 = addy63fbd0c3048b32b2d5b61ffc5db0d1f8 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text63fbd0c3048b32b2d5b61ffc5db0d1f8 = 'm&#97;ndr&#97;d' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak63fbd0c3048b32b2d5b61ffc5db0d1f8').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy63fbd0c3048b32b2d5b61ffc5db0d1f8 + '\'>'+addy_text63fbd0c3048b32b2d5b61ffc5db0d1f8+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. en C. María Eugenia Cabello Espinosa<br /> <strong>Responsable del servicio social universitario</strong><br /> <span id="cloak0aae3c772f9fbae466b0e91bd0329ae2">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak0aae3c772f9fbae466b0e91bd0329ae2').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy0aae3c772f9fbae466b0e91bd0329ae2 = '&#101;c&#97;b&#101;ll&#111;' + '&#64;';
+				addy0aae3c772f9fbae466b0e91bd0329ae2 = addy0aae3c772f9fbae466b0e91bd0329ae2 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text0aae3c772f9fbae466b0e91bd0329ae2 = '&#101;c&#97;b&#101;ll&#111;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak0aae3c772f9fbae466b0e91bd0329ae2').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy0aae3c772f9fbae466b0e91bd0329ae2 + '\'>'+addy_text0aae3c772f9fbae466b0e91bd0329ae2+'<\/a>';
+		</script></td>
+<td style="text-align: center;">M. en C. Margarita Glenda Mayoral Baldivia<br /> <strong>Responsable de práctica, estancia profesional, EGEL</strong><br /> <span id="cloak6a1d904e635eb3acc46471cd29c518e2">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak6a1d904e635eb3acc46471cd29c518e2').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy6a1d904e635eb3acc46471cd29c518e2 = 'mgl&#101;nd&#97;' + '&#64;';
+				addy6a1d904e635eb3acc46471cd29c518e2 = addy6a1d904e635eb3acc46471cd29c518e2 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text6a1d904e635eb3acc46471cd29c518e2 = 'mgl&#101;nd&#97;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak6a1d904e635eb3acc46471cd29c518e2').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy6a1d904e635eb3acc46471cd29c518e2 + '\'>'+addy_text6a1d904e635eb3acc46471cd29c518e2+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. en C. Pedro Damián Reyes<br /><strong>Responsable de educación continua</strong><br /> <span id="cloakfb1e2f6b9a667fc7aa8149fd1ff3e7fc">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloakfb1e2f6b9a667fc7aa8149fd1ff3e7fc').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyfb1e2f6b9a667fc7aa8149fd1ff3e7fc = 'd&#97;m&#105;&#97;n' + '&#64;';
+				addyfb1e2f6b9a667fc7aa8149fd1ff3e7fc = addyfb1e2f6b9a667fc7aa8149fd1ff3e7fc + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_textfb1e2f6b9a667fc7aa8149fd1ff3e7fc = 'd&#97;m&#105;&#97;n' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloakfb1e2f6b9a667fc7aa8149fd1ff3e7fc').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyfb1e2f6b9a667fc7aa8149fd1ff3e7fc + '\'>'+addy_textfb1e2f6b9a667fc7aa8149fd1ff3e7fc+'<\/a>';
+		</script></td>
+</tr>
+<tr>
+<td style="text-align: center;">D. en C. Jorge Rafael Gutiérrez Pulido<br /><strong>Responsable de seguimiento de egresados</strong><br /><span id="cloaka60b6922a6a1c202f2c67297b4f45772">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloaka60b6922a6a1c202f2c67297b4f45772').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addya60b6922a6a1c202f2c67297b4f45772 = 'jrgp' + '&#64;';
+				addya60b6922a6a1c202f2c67297b4f45772 = addya60b6922a6a1c202f2c67297b4f45772 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_texta60b6922a6a1c202f2c67297b4f45772 = 'jrgp' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloaka60b6922a6a1c202f2c67297b4f45772').innerHTML += '<a ' + path + '\'' + prefix + ':' + addya60b6922a6a1c202f2c67297b4f45772 + '\'>'+addy_texta60b6922a6a1c202f2c67297b4f45772+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. en C. Juan Antonio Guerrero Ibáñez<br /> <strong> Responsable del programa de becas</strong><br /> <span id="cloaka275af82521d0eb6a9f813be5cc19782">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloaka275af82521d0eb6a9f813be5cc19782').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addya275af82521d0eb6a9f813be5cc19782 = '&#97;nt&#111;n&#105;&#111;_g&#117;&#101;rr&#101;r&#111;' + '&#64;';
+				addya275af82521d0eb6a9f813be5cc19782 = addya275af82521d0eb6a9f813be5cc19782 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_texta275af82521d0eb6a9f813be5cc19782 = '&#97;nt&#111;n&#105;&#111;_g&#117;&#101;rr&#101;r&#111;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloaka275af82521d0eb6a9f813be5cc19782').innerHTML += '<a ' + path + '\'' + prefix + ':' + addya275af82521d0eb6a9f813be5cc19782 + '\'>'+addy_texta275af82521d0eb6a9f813be5cc19782+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. en C. Buenrostro Mariscal Raymundo<br /><strong>Responsable de becas de manutención</strong><br /><span id="cloakde5964d2bea079232951575b7d568c26">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloakde5964d2bea079232951575b7d568c26').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyde5964d2bea079232951575b7d568c26 = 'r&#97;ym&#117;nd&#111;' + '&#64;';
+				addyde5964d2bea079232951575b7d568c26 = addyde5964d2bea079232951575b7d568c26 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_textde5964d2bea079232951575b7d568c26 = 'r&#97;ym&#117;nd&#111;' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloakde5964d2bea079232951575b7d568c26').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyde5964d2bea079232951575b7d568c26 + '\'>'+addy_textde5964d2bea079232951575b7d568c26+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. Ed. Antonio Ordaz Carrillo<br /><strong>Responsable de Exani II, becas de excelencia,</strong><br /><span id="cloak38e65bc2b85a24d5fec9e98d5850501a">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak38e65bc2b85a24d5fec9e98d5850501a').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy38e65bc2b85a24d5fec9e98d5850501a = '&#97;&#111;rd&#97;z' + '&#64;';
+				addy38e65bc2b85a24d5fec9e98d5850501a = addy38e65bc2b85a24d5fec9e98d5850501a + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text38e65bc2b85a24d5fec9e98d5850501a = '&#97;&#111;rd&#97;z' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak38e65bc2b85a24d5fec9e98d5850501a').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy38e65bc2b85a24d5fec9e98d5850501a + '\'>'+addy_text38e65bc2b85a24d5fec9e98d5850501a+'<\/a>';
+		</script></td>
+</tr>
+<tr>
+<td style="text-align: center;">M. en C. Gaspar Cruz Carlos Fidel<br /><strong>Responsable de certificación ISO 9000</strong><br /><span id="cloak2924e267e0bd7d2ad10a5d05d6c2697b">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak2924e267e0bd7d2ad10a5d05d6c2697b').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy2924e267e0bd7d2ad10a5d05d6c2697b = 'c&#97;rl&#111;s.g&#97;sp&#97;r' + '&#64;';
+				addy2924e267e0bd7d2ad10a5d05d6c2697b = addy2924e267e0bd7d2ad10a5d05d6c2697b + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text2924e267e0bd7d2ad10a5d05d6c2697b = 'c&#97;rl&#111;s.g&#97;sp&#97;r' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak2924e267e0bd7d2ad10a5d05d6c2697b').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy2924e267e0bd7d2ad10a5d05d6c2697b + '\'>'+addy_text2924e267e0bd7d2ad10a5d05d6c2697b+'<\/a>';
+		</script></td>
+<td style="text-align: center;">M. en C. Aaron Vázquez Godina <br /> <strong>Responsable de visitas guiadas</strong> <br /><span id="cloakfc6fbbae22b17e326b3e88c28200331e">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloakfc6fbbae22b17e326b3e88c28200331e').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyfc6fbbae22b17e326b3e88c28200331e = 'l&#97;&#97;&#97;r&#111;n' + '&#64;';
+				addyfc6fbbae22b17e326b3e88c28200331e = addyfc6fbbae22b17e326b3e88c28200331e + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_textfc6fbbae22b17e326b3e88c28200331e = 'l&#97;&#97;&#97;r&#111;n' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloakfc6fbbae22b17e326b3e88c28200331e').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyfc6fbbae22b17e326b3e88c28200331e + '\'>'+addy_textfc6fbbae22b17e326b3e88c28200331e+'<\/a>';
+		</script></td>
+<td style="text-align: center;">D. en C. Erika Margarita Ramos Michel<br /> <strong>Responsable de Tutorías</strong> <br /> <span id="cloakd286ffde118a0030037db562ace52e37">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloakd286ffde118a0030037db562ace52e37').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyd286ffde118a0030037db562ace52e37 = 'r&#97;m&#101;m' + '&#64;';
+				addyd286ffde118a0030037db562ace52e37 = addyd286ffde118a0030037db562ace52e37 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_textd286ffde118a0030037db562ace52e37 = 'r&#97;m&#101;m' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloakd286ffde118a0030037db562ace52e37').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyd286ffde118a0030037db562ace52e37 + '\'>'+addy_textd286ffde118a0030037db562ace52e37+'<\/a>';
+		</script></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th colspan="4" style="text-align: center; color: #ffffff; background: #4475B2;"><span class="fa fa-users"> RESPONSABLES DE LABORATORIO</span></th></tr>
+<tr>
+<td style="text-align: center;">Ing. Manzanilla Aznarez Jorge Gerardo<br /><span id="cloake1899c3e30b7a7fc7d9847b6bdbfc0d7">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloake1899c3e30b7a7fc7d9847b6bdbfc0d7').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addye1899c3e30b7a7fc7d9847b6bdbfc0d7 = '&#97;zn&#97;r&#101;z' + '&#64;';
+				addye1899c3e30b7a7fc7d9847b6bdbfc0d7 = addye1899c3e30b7a7fc7d9847b6bdbfc0d7 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_texte1899c3e30b7a7fc7d9847b6bdbfc0d7 = '&#97;zn&#97;r&#101;z' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloake1899c3e30b7a7fc7d9847b6bdbfc0d7').innerHTML += '<a ' + path + '\'' + prefix + ':' + addye1899c3e30b7a7fc7d9847b6bdbfc0d7 + '\'>'+addy_texte1899c3e30b7a7fc7d9847b6bdbfc0d7+'<\/a>';
+		</script></td>
+<td style="text-align: center;">M. en C. Gaspar Cruz Carlos Fidel<br /><span id="cloak94df0061c8d474fedb7b205985d6584e">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak94df0061c8d474fedb7b205985d6584e').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy94df0061c8d474fedb7b205985d6584e = 'c&#97;rl&#111;s.g&#97;sp&#97;r' + '&#64;';
+				addy94df0061c8d474fedb7b205985d6584e = addy94df0061c8d474fedb7b205985d6584e + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text94df0061c8d474fedb7b205985d6584e = 'c&#97;rl&#111;s.g&#97;sp&#97;r' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak94df0061c8d474fedb7b205985d6584e').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy94df0061c8d474fedb7b205985d6584e + '\'>'+addy_text94df0061c8d474fedb7b205985d6584e+'<\/a>';
+		</script></td>
+<td style="text-align: center;">Lic. Inf. Julio Cesar Marquez Jimenez<br /><span id="cloak074bfa1440917d5a5b055c3f875d58e8">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak074bfa1440917d5a5b055c3f875d58e8').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy074bfa1440917d5a5b055c3f875d58e8 = 'j&#117;l&#105;&#111;c_m&#97;rq&#117;&#101;z' + '&#64;';
+				addy074bfa1440917d5a5b055c3f875d58e8 = addy074bfa1440917d5a5b055c3f875d58e8 + '&#117;c&#111;l' + '&#46;' + 'mx';
+				var addy_text074bfa1440917d5a5b055c3f875d58e8 = 'j&#117;l&#105;&#111;c_m&#97;rq&#117;&#101;z' + '&#64;' + '&#117;c&#111;l' + '&#46;' + 'mx';document.getElementById('cloak074bfa1440917d5a5b055c3f875d58e8').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy074bfa1440917d5a5b055c3f875d58e8 + '\'>'+addy_text074bfa1440917d5a5b055c3f875d58e8+'<\/a>';
+		</script></td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr><th colspan="4" style="text-align: center; color: #ffffff; background: #4475B2;"><strong><span class="fa fa-users"> SECRETARIAS </span></strong></th></tr>
+<tr>
+<td style="text-align: center;">Aguayo Dimas Silvia Leticia<br />ext 37801</td>
+<td style="text-align: center;">Campos Llerenas Carmen Leticia<br /> ext. 37801</td>
+<td style="text-align: center;">Chavez Trillo Luz Aida <br /> ext 37801</td>
+<td style="text-align: center;">García Vázquez Itza María De J.<br /> ext 37801</td>
+</tr>
+<tr>
+<td style="text-align: center;">Juarez Garcia Ma. Mercedes<br /> ext 37801</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+ </div>
+<div class="container well">
+  <div class="row">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+        <address>
+        <strong>Telefono</strong><br>
++52 (312) 3161075<br>
+
+
+      </address>
+	          <address>
+        <strong>Horarios</strong><br>
+        Lu-Vi 07:00-20:00<br>
+        </address>
+        <address>
+        <strong>Correo</strong><br>
+        <a href="mailto:telematica@ucol.mx">telematica@ucol.mx</a>
+        </address>
+    </div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">&nbsp;</div>
+<div class="container">
+
+<table width="" border="0">
+  <tbody>
+    <tr>
+      <td width=""><a href="https://www.facebook.com/FacultadDeTelematica/" target="_blank"><img  src="imagenes/Iconos/facebook-icon-preview-200x200.png"  width="20px" alt=""/></td></a>
+      <td><a href="https://www.facebook.com/FacultadDeTelematica/" target="_blank">Facultad de Telematica</td></a>
+</tr>
+    <tr>
+      <td width="10%"><a href="https://www.youtube.com/channel/UC_YjTm-wX8Cj7E_QXuvcL8w" target="_blank"><img class="img-responsive" src="imagenes/Iconos/youtube_circle-256.png" width="20px"  alt=""/></td></a>
+      <td><a href="https://www.youtube.com/channel/UC_YjTm-wX8Cj7E_QXuvcL8w" target="_blank">Facultad de Telemática </td></a>
+    </tr>
+    <tr>
+      <td width="10%"><a href="https://www.flickr.com/photos/144086586@N07/" target="_blank"><img class="img-responsive" src="imagenes/Iconos/photos.png" width="20px" alt=""/></td></a>
+      <td><a href="https://www.flickr.com/photos/144086586@N07/" target="_blank">Facultad de Telemática </td></a>		
+	
+	</tr>
+  </tbody>
+</table>
+  </div>
+  </div>
+<strong></strong></div>
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+        <h4 class="hola">© 2018 Facultad de Telemática. All Rights Res erved. </h4>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

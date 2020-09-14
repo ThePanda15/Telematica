@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facultad de telematica - Academias</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap-academias.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+   
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<a href='https://www.ucol.mx/' style=' width:17%; display:scroll;position:absolute;top:0px;right:0px; z-index:1;'> 
+<img id="logo "src='imagenes/logo.png' class="img-responsive"/></a>
+<header>
+    <nav>
+            <div>
+                  <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                  <li><a href="Inicio.html">INICIO</a></li>
+                  <li><a href="#">FACULTAD <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Historia.html">Historia</a></li>
+                              <li><a href="Contacto.html">Contacto</a></li>
+                              <li><a href="Personal-admin.html">Personal Administrativo</a></li>
+                              <li><a href="Reglamentos.html">Reglamento de Uso de Laboratorio</a></li>
+							  <li><a href="Infraestructura.html">Infraestructura</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">OFERTA EDUCATIVA <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Bienvenida.html">Bienvenida</a></li>
+                              <li><a href="Ing-Telematica.html">Ingeniero en Telematica</a></li>
+                              <li><a href="Ing-Software.html">Ingeniero de Software</a></li>
+                              
+                        </ul>
+                  </li>
+				      <li><a href="#">ACADEMICO <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Docentes.html">Docentes</a></li>
+                              <li><a href="Academias.html">Academias</a></li>
+                              <li><a href="Cuerpos.html">Cuerpos Academicos</a></li>
+							  <li><a href="Program-tutoria.html">Programa Tutoria</a></li>
+                        </ul>
+                  </li>
+                       <li><a href="#">RENDICION DE CUENTAS <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="Informes-laborales.html">Informes Laborales</a></li>
+                              
+                        </ul>
+                  </li>
+                  <li><a href="http://telematicanet.ucol.mx/egresados/" target="_blank">ASOC. EGRESADOS</a></li>
+            </ul>
+      </nav>
+</header>
+      <script type="text/javascript">
+
+      $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+      });
+
+      $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+      });
+
+      $(window).resize(function() {
+            if($(window).width() > 768) {
+                  $("ul").removeAttr('style');
+            }
+      });
+
+      </script>
+	  
+	  <hr>
+
+
+
+<hr>
+<h2 class="text-center">Ingeniero en Telemática</h2>
+<hr>
+<div class="container">
+ <table class="table table-hover" style="width: 100%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr><th>ACADEMIA</th><th>UNIDADES DE APRENDIZAJE</th><th>SEMESTRE</th></tr>
+<tr>
+<td>Ciencias Básicas</td>
+<td>&nbsp; Física<br /> &nbsp; Matemáticas para Ingeniería<br /> &nbsp; Cálculo Diferencial e Integral<br /> &nbsp; Electricidad y Magnetismo<br /> &nbsp; Probabilidad y Métodos Estadísticos<br /> &nbsp; Métodos Numéricos<br /> &nbsp; Ecuaciones Diferenciales<br /> &nbsp; Análisis de Señales</td>
+<td>1°<br /> 1°<br />2°<br /> 3°<br /> 3°<br /> 4°<br /> 4°<br /> 5°</td>
+</tr>
+<tr>
+<td>&nbsp;Redes y Telecomunicaciones</td>
+<td>&nbsp; Redes de Datos<br /> &nbsp; Enrutamiento Básico<br /> &nbsp; Enrutamiento WAN y Conmutación<br /> &nbsp; Sistemas Operativos y Servicios de Internet<br /> &nbsp; Comunicaciones Digitales<br /> &nbsp; Comunicaciones Ópticas<br /> &nbsp; Comunicaciones Móviles y Satelitales<br /> &nbsp; Administración y Seguridad de Redes<br /> &nbsp; Redes Inalámbricas de Sensores<br /> &nbsp; Simulación y Calidad de Servicio</td>
+<td>1°<br /> 2°<br /> 3°<br /> 4°<br /> 5°<br /> 6°<br /> 6°<br /> 6°<br /> 7°<br /> 7°</td>
+</tr>
+<tr>
+<td>Arquitectura de Computadoras</td>
+<td>&nbsp; Arquitectura de Computadoras<br />&nbsp; Electrónica Digital<br /> &nbsp; Sistemas embebidos<br /> &nbsp; Robótica</td>
+<td>1°<br /> 2°<br /> 2°<br /> 4°</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>&nbsp; Herramientas de Programación<br /> &nbsp; Estructuras y Bases de Datos<br /> &nbsp; Programación<br /> &nbsp; Programación Visual<br /> &nbsp; Programación para Web<br /> &nbsp; Ingeniería de Software<br /> &nbsp; Bases de Datos Distribuidas</td>
+<td>1°<br /> 2°<br /> 3°<br /> 4°<br /> 5°<br /> 5°<br /> 6°</td>
+</tr>
+<tr>
+<td>&nbsp;Entorno Social</td>
+<td>&nbsp; Ética y Comportamiento en las Organizaciones<br /> &nbsp; Derecho Informático<br /> &nbsp; Formulación de Proyectos<br /> &nbsp; Evaluación de Proyectos<br /> &nbsp; Dirección de Proyectos</td>
+<td>1°<br /> 2°<br /> 3°<br /> 5°<br /> 6°</td>
+</tr>
+<tr>
+<td>Introducción a la Investigación</td>
+<td>&nbsp; Seminario de Investigación I<br /> &nbsp; Seminario de Investigación II</td>
+<td>6°<br /> 7°</td>
+</tr>
+<tr>
+<td>&nbsp;Lengua Inglesa</td>
+<td>&nbsp; Pre-Intermediate General English<br /> &nbsp; Intermediate General English<br /> &nbsp; Intermediate English for Computer Users<br /> &nbsp; Upper-Intermediate English for Computer Users&nbsp;<br /> &nbsp; Advanced English for Computer Users<br /> &nbsp; English for Research<br /> &nbsp; Occupational English</td>
+<td>1°<br /> 2°<br /> 3°<br /> 4°<br /> 5°<br /> 6°<br /> 7°</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 class="text-center">Ingeniero de Software</h2>
+<table class="table table-hover" style="width: 100%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr><th>ACADEMIA</th><th>UNIDADES DE APRENDIZAJE</th><th>SEMESTRE</th></tr>
+<tr>
+<td>Ciencias Básicas</td>
+<td>&nbsp; Física<br /> &nbsp; Matemáticas Básicas<br /> &nbsp; Cálculos<br /> &nbsp; Probabilidad<br /> &nbsp; Matemáticas Discretas<br /> &nbsp; Métodos Estadísticos<br /> &nbsp; Métodos Numéricos<br /> &nbsp; Simulación e Investigación de Operaciones</td>
+<td>1°<br /> 1°<br /> 2°<br /> 3°<br /> 3°<br /> 4°<br /> 5°<br /> 6°</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>&nbsp; Ofimática<br /> &nbsp; Lenguajes Algorítmicos<br /> &nbsp; Análisis y Modelado de Software<br /> &nbsp; Programación Orientada a Objetos<br /> &nbsp; Sistemas de Información<br /> &nbsp; Diseño de Software<br /> &nbsp; Administración de Proyectos de Software<br /> &nbsp; Programación Visual<br /> &nbsp; Estructuras de Datos<br /> &nbsp; Programación Distribuida<br /> &nbsp; Bases de Datos<br /> &nbsp; Interacción Humano-Computadora<br /> &nbsp; Programación en Internet<br /> &nbsp; Testeo y Métodos de Usabilidad<br /> &nbsp; Bases de Datos Distribuidas<br /> &nbsp; Sistemas de Hipermedia<br /> &nbsp; Mantenimiento de Software<br /> &nbsp; Programación de Dispositivos Móviles</td>
+<td>1°<br /> 1°<br /> 1°<br /> 2°<br /> 2°<br /> 2°<br /> 3°<br /> 3°<br /> 4°<br /> 5°<br /> 5°<br /> 5°<br /> 6°<br /> 6°<br /> 6°<br /> 7°<br /> 7°<br /> 7°</td>
+</tr>
+<tr>
+<td>Arquitectura de Computadoras</td>
+<td>&nbsp; Sistemas Digitales<br /> &nbsp; Arquitectura de Computadoras<br /> &nbsp; Sistemas embebidos</td>
+<td>1°<br /> 2°<br /> 4°</td>
+</tr>
+<tr>
+<td>Redes</td>
+<td>&nbsp; Redes de Computadoras<br /> &nbsp; Sistemas Operativos y Servicios de Internet&nbsp;<br /> &nbsp; Seguridad de Datos</td>
+<td>2°<br /> 4°<br /> 7°</td>
+</tr>
+<tr>
+<td>&nbsp;Entorno Social</td>
+<td>&nbsp; Formulación de Proyectos<br /> &nbsp; Evaluación de Proyectos<br /> &nbsp; Ética y Comportamiento en las Organizaciones&nbsp;<br /> &nbsp; Dirección de Proyectos<br /> &nbsp; Derecho Informático</td>
+<td>3°<br /> 4°<br /> 4°<br /> 5°<br /> 5°</td>
+</tr>
+<tr>
+<td>Introducción a la Investigación</td>
+<td>&nbsp; Seminario de Investigación I<br /> &nbsp; Seminario de Investigación II</td>
+<td>6°<br /> 7°</td>
+</tr>
+<tr>
+<td>&nbsp;Lengua Inglesa</td>
+<td>&nbsp; Pre-Intermediate General English<br /> &nbsp; Intermediate General English<br /> &nbsp; Intermediate English for Computer Users<br /> &nbsp; Upper-Intermediate English for Computer Users<br /> &nbsp; Advanced English for Computer Users<br /> &nbsp; English for Research<br /> &nbsp; Occupational English</td>
+<td>1°<br /> 2°<br /> 3°<br /> 4°<br /> 5°<br /> 6°<br /> 7°</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+  <div class="container well">
+  <div class="row">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+        <address>
+        <strong>Telefono</strong><br>
++52 (312) 3161075<br>
+
+
+      </address>
+	          <address>
+        <strong>Horarios</strong><br>
+        Lu-Vi 07:00-20:00<br>
+        </address>
+        <address>
+        <strong>Correo</strong><br>
+        <a href="mailto:telematica@ucol.mx">telematica@ucol.mx</a>
+        </address>
+    </div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">&nbsp;</div>
+<div class="container">
+
+<table width="" border="0">
+  <tbody>
+    <tr>
+      <td width=""><a href="https://www.facebook.com/FacultadDeTelematica/" target="_blank"><img  src="imagenes/Iconos/facebook-icon-preview-200x200.png"  width="20px" alt=""/></td></a>
+      <td><a href="https://www.facebook.com/FacultadDeTelematica/" target="_blank">Facultad de Telematica</td></a>
+</tr>
+    <tr>
+      <td width="10%"><a href="https://www.youtube.com/channel/UC_YjTm-wX8Cj7E_QXuvcL8w" target="_blank"><img class="img-responsive" src="imagenes/Iconos/youtube_circle-256.png" width="20px"  alt=""/></td></a>
+      <td><a href="https://www.youtube.com/channel/UC_YjTm-wX8Cj7E_QXuvcL8w" target="_blank">Facultad de Telemática </td></a>
+    </tr>
+    <tr>
+      <td width="10%"><a href="https://www.flickr.com/photos/144086586@N07/" target="_blank"><img class="img-responsive" src="imagenes/Iconos/photos.png" width="20px" alt=""/></td></a>
+      <td><a href="https://www.flickr.com/photos/144086586@N07/" target="_blank">Facultad de Telemática </td></a>		
+	
+	</tr>
+  </tbody>
+</table>
+  </div>
+  </div>
+
+<strong></strong></div>
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+        <h4 class="hola">© 2018 Facultad de Telemática. All Rights Res erved. </h4>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
